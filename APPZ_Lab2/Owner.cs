@@ -1,17 +1,18 @@
-﻿using APPZ_Lab2;
-using System;
+﻿using System;
 using System.Collections.Generic;
 
 namespace APPZ_Lab2
 {
-
-    // Клас, що представляє хазяїна. Він може мати декілька тварин і
-    // отримувати сповіщення про зміну їхнього стану (Observer Pattern).
- 
+    /// <summary>
+    /// Клас, що представляє власника.
+    /// Власник може мати декілька тварин і отримувати повідомлення (через події) про зміну їхнього стану.
+    /// </summary>
     public class Owner
     {
         public string Name { get; }
         private List<Animal> animals;
+
+        public IEnumerable<Animal> Animals => animals;
 
         public Owner(string name)
         {
@@ -24,32 +25,22 @@ namespace APPZ_Lab2
             animals.Add(animal);
         }
 
-        public IEnumerable<Animal> Animals => animals;
-
-        // Обробник подій зміни стану тварин.
-        // Тепер він є public, щоб його можна було підписати напряму з Program.
-  
         public void AnimalStateChangedHandler(object sender, AnimalEventArgs e)
         {
-            // Тут симулюємо отримання сповіщення (наприклад, SMS)
-            Console.WriteLine($"[Сповіщення для {Name}]: {e.Message}");
+            // Сповіщення власника про зміну стану тварини
+            Console.WriteLine($"[Сповіщення для власника {Name}]: {e.Message}");
         }
 
-        // Допоміжні методи для роботи з усіма тваринами (за бажанням).
         public void FeedAllAnimals(int simulationTime)
         {
             foreach (var animal in animals)
-            {
                 animal.Eat(simulationTime);
-            }
         }
 
         public void CleanAllAnimals(int simulationTime)
         {
             foreach (var animal in animals)
-            {
                 animal.Clean(simulationTime);
-            }
         }
     }
 }

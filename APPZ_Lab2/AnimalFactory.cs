@@ -2,11 +2,10 @@
 
 namespace APPZ_Lab2
 {
-
-    // Клас-інструмент (Factory Pattern) для створення тварин.
-    // Завдяки цьому класу логіка створення ізольована від решти коду,
-    // що дозволяє легко додавати нові типи тварин.
-
+    /// <summary>
+    /// Фабрика для створення об’єктів тварин за типом.
+    /// Використання шаблону Factory ізолює логіку конструювання тварин від решти коду.
+    /// </summary>
     public static class AnimalFactory
     {
         public static Animal CreateAnimal(string type, string name, int currentTime)

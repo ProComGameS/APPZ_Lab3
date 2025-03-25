@@ -2,30 +2,49 @@
 
 namespace APPZ_Lab2
 {
-
-    // Клас для собаки. Наслідує загальні властивості з Animal.
-    // Перевизначено метод Sing – замість співу собака гавкає.
-    // Методу Fly надано конкретну реалізацію – собака не може літати.
-
+    /// <summary>
+    /// Клас для собаки.
+    /// Собака має 2 очі, 4 лапи (Wings = 0).
+    /// При виконанні дій (годування, біг, хода, «спів» як гавкіт, прибирання, випуск) до повідомлення додається ASCII‑арт.
+    /// </summary>
     public class Dog : Animal
     {
-        public Dog(string name, int currentTime) : base(name, currentTime) { }
+        private const string DogAscii = @"⠀⠀⠀⠀⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⢠⣤⡀⣾⣿⣿⠀⣤⣤⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⢿⣿⡇⠘⠛⠁⢸⣿⣿⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠈⣉⣤⣾⣿⣿⡆⠉⣴⣶⣶⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⣾⣿⣿⣿⣿⣿⣿⡀⠻⠟⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠙⠛⠻⢿⣿⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠈⠙⠋⠁⠀⠀⠀⠀⠀";
 
+        public Dog(string name, int currentTime) : base(name, currentTime)
+        {
+            Eyes = 2;
+            Legs = 4;
+            Wings = 0;
+        }
+
+        protected override string GetAsciiArt()
+        {
+            return DogAscii;
+        }
+
+        
         public override void Sing(int simulationTime)
         {
             if (!IsAlive) return;
             if (!CheckFoodForActivity(simulationTime))
             {
-                OnAnimalStateChanged($"{Name} занадто голодний(на), щоб гавкати.", simulationTime);
+                ReportAction($"{Name} занадто голодний(на), щоб гавкати.", simulationTime);
                 return;
             }
-            OnAnimalStateChanged($"{Name} гавкaє у годину {simulationTime}.", simulationTime);
+            ReportAction($"{Name} гавкає у годину {simulationTime}.", simulationTime);
         }
 
         public override void Fly(int simulationTime)
         {
             if (!IsAlive) return;
-            OnAnimalStateChanged($"{Name} не може літати.", simulationTime);
+            ReportAction($"{Name} не може літати.", simulationTime);
         }
     }
 }

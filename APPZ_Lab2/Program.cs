@@ -4,33 +4,25 @@ using System.Collections.Generic;
 namespace APPZ_Lab2
 {
 
-    // Console–інтерфейс симуляції. Всі операції вводу-виводу винесені сюди – логіка доменної області (Animal тощо) не містить прямого взаємодії з консоллю.
-
     class Program
     {
         static void Main(string[] args)
         {
-            int currentTime = 0; // поточний час симуляції (х в годинах)
-            // Для перевірки закінчення доби зберігаємо попередній день:
-            int lastProcessedDay = currentTime / 24;
+            
+            int currentTime = 0; // Поточний час симуляції (в годинах)
 
-            // Створюємо хазяїна
-            Owner owner = new Owner("Ivan");
+            // Створюємо власника та зоомагазин.
+            Owner owner = new Owner("John");
+            PetShop petShop = new PetShop("Lapki");
 
-            // Створюємо тварин за допомогою фабрики
+            // Створення тварин
             Animal dog = AnimalFactory.CreateAnimal("dog", "Rex", currentTime);
             Animal canary = AnimalFactory.CreateAnimal("canary", "Tweety", currentTime);
             Animal lizard = AnimalFactory.CreateAnimal("lizard", "Lizzy", currentTime);
 
-            // Додаємо тварин до хазяїна
-            owner.AddAnimal(dog);
-            owner.AddAnimal(canary);
-            owner.AddAnimal(lizard);
-
-            // Підписка хазяїна на події всіх тварин
-            dog.AnimalStateChanged += owner.AnimalStateChangedHandler;
-            canary.AnimalStateChanged += owner.AnimalStateChangedHandler;
-            lizard.AnimalStateChanged += owner.AnimalStateChangedHandler;
+            petShop.AddAnimal(dog);
+            petShop.AddAnimal(canary);
+            petShop.AddAnimal(lizard);
 
             bool exit = false;
             while (!exit)
@@ -38,71 +30,77 @@ namespace APPZ_Lab2
                 Console.WriteLine("\n----- Стан симуляції -----");
                 Console.WriteLine($"Поточний час (годин): {currentTime}");
                 Console.WriteLine("1. Прогрес часу");
-                Console.WriteLine("2. Годувати тварину");
-                Console.WriteLine("3. Виконати дію (біг, хода, спів, політ) для тварини");
-                Console.WriteLine("4. Прибрати тварину");
-                Console.WriteLine("5. Випустити тварину на волю");
-                Console.WriteLine("6. Показати статус тварин");
-                Console.WriteLine("7. Вихід");
+                Console.WriteLine("2. Забрати тварину з зоомагазину $");
+                Console.WriteLine("3. Годувати тварину *");
+                Console.WriteLine("4. Виконати дію для тварини *");
+                Console.WriteLine("5. Чистити тварину *");
+                Console.WriteLine("6. Випустити тварину на волю *");
+                Console.WriteLine("7. Показати статус тварин власника");
+                Console.WriteLine("8. Показати статус тварин зоомагазину");
+                Console.WriteLine("9. Вихід");
                 Console.Write("Оберіть опцію: ");
+
                 string option = Console.ReadLine();
                 Console.WriteLine();
 
                 switch (option)
                 {
                     case "1":
-                        Console.Write("Введіть кількість годин для просування: ");
+                        Console.Write("Введіть кількість годин для просування часу: ");
                         if (int.TryParse(Console.ReadLine(), out int hours))
                         {
-                            int previousDay = currentTime / 24;
                             currentTime += hours;
-                            int currentDay = currentTime / 24;
-                            // Для кожної завершеної доби перевіряємо прийоми їжі
-                            for (int day = previousDay + 1; day <= currentDay; day++)
-                            {
-                                Console.WriteLine($"Добу {day} завершено. Перевірка прийомів їжі для тварин...");
-                                foreach (var animal in owner.Animals)
-                                {
-                                    animal.CheckDailyFeeding(currentTime);
-                                }
-                            }
+                            Console.WriteLine($"Час просунуто. Поточний час: {currentTime} годин.");
+
+                            // Після завершення доби (кожні 24 години) перевіряємо годування
+                            foreach (var animal in owner.Animals)
+                                animal.CheckDailyFeeding(currentTime);
+                            foreach (var animal in petShop.Animals)
+                                animal.CheckDailyFeeding(currentTime);
                         }
                         else
                         {
-                            Console.WriteLine("Невірний формат кількості годин.");
+                            Console.WriteLine("Невірний формат вводу.");
                         }
                         break;
 
                     case "2":
-                        {
-                            Animal selectedAnimal = SelectAnimal(owner);
-                            if (selectedAnimal != null)
-                            {
-                                selectedAnimal.Eat(currentTime);
-                            }
-                        }
+                        PickupAnimal(owner, petShop);
                         break;
 
                     case "3":
                         {
-                            Animal selectedAnimal = SelectAnimal(owner);
-                            if (selectedAnimal != null)
+                            Animal a = SelectOwnerAnimal(owner, "обрати тварину для годування");
+                            if (a != null)
+                                a.Eat(currentTime);
+                        }
+                        break;
+
+                    case "4":
+                        {
+                            Animal a = SelectOwnerAnimal(owner, "обрати тварину для виконання дії");
+                            if (a != null)
                             {
-                                Console.WriteLine("Оберіть дію: 1. Біг, 2. Хода, 3. Спів, 4. Політ");
+                                Console.WriteLine("Оберіть дію:");
+                                Console.WriteLine("1. Біг");
+                                Console.WriteLine("2. Хода");
+                                Console.WriteLine("3. Спів");
+                                Console.WriteLine("4. Політ");
+                                Console.Write("Ваш вибір: ");
                                 string act = Console.ReadLine();
                                 switch (act)
                                 {
                                     case "1":
-                                        selectedAnimal.Run(currentTime);
+                                        a.Run(currentTime);
                                         break;
                                     case "2":
-                                        selectedAnimal.Walk(currentTime);
+                                        a.Walk(currentTime);
                                         break;
                                     case "3":
-                                        selectedAnimal.Sing(currentTime);
+                                        a.Sing(currentTime);
                                         break;
                                     case "4":
-                                        selectedAnimal.Fly(currentTime);
+                                        a.Fly(currentTime);
                                         break;
                                     default:
                                         Console.WriteLine("Невірна дія.");
@@ -112,39 +110,36 @@ namespace APPZ_Lab2
                         }
                         break;
 
-                    case "4":
-                        {
-                            Animal selectedAnimal = SelectAnimal(owner);
-                            if (selectedAnimal != null)
-                            {
-                                selectedAnimal.Clean(currentTime);
-                            }
-                        }
-                        break;
-
                     case "5":
                         {
-                            Animal selectedAnimal = SelectAnimal(owner);
-                            if (selectedAnimal != null)
-                            {
-                                selectedAnimal.Release(currentTime);
-                            }
+                            Animal a = SelectOwnerAnimal(owner, "обрати тварину для прибирання");
+                            if (a != null)
+                                a.Clean(currentTime);
                         }
                         break;
 
                     case "6":
                         {
-                            Console.WriteLine("----- Статус тварин -----");
-                            foreach (var animal in owner.Animals)
-                            {
-                                Console.WriteLine($"Тварина: {animal.Name}, Жива: {animal.IsAlive}, " +
-                                    $"Випущена: {animal.IsReleased}, Щаслива: {animal.IsHappy}, " +
-                                    $"Останній прийом їжі: {animal.LastMealTime}, Прийомів сьогодні: {animal.MealCountToday}");
-                            }
+                            Animal a = SelectOwnerAnimal(owner, "обрати тварину для випуску на волю");
+                            if (a != null)
+                                a.Release(currentTime);
                         }
                         break;
 
                     case "7":
+                        {
+                            Console.WriteLine("----- Статус тварин власника -----");
+                            int i = 1;
+                            foreach (var animal in owner.Animals)
+                                Console.WriteLine($"{i++}. Тварина: {animal.Name}, Жива: {animal.IsAlive}, Випущена: {animal.IsReleased}, Щаслива: {animal.IsHappy}, Останній прийом їжі: {animal.LastMealTime}, Прийомів сьогодні: {animal.MealCountToday}");
+                        }
+                        break;
+
+                    case "8":
+                        petShop.ShowStatus();
+                        break;
+
+                    case "9":
                         exit = true;
                         break;
 
@@ -153,27 +148,71 @@ namespace APPZ_Lab2
                         break;
                 }
             }
+            Console.WriteLine("Вихід із симуляції.");
         }
 
-        // Допоміжний метод для вибору тварини із списку хазяїна.
-
-        static Animal SelectAnimal(Owner owner)
+        
+        // Метод для вибору тварини з колекції власника.
+      
+        static Animal SelectOwnerAnimal(Owner owner, string prompt)
         {
-            Console.WriteLine("Оберіть тварину:");
-            var animalList = new List<Animal>(owner.Animals);
-            for (int i = 0; i < animalList.Count; i++)
+            List<Animal> animalList = new List<Animal>(owner.Animals);
+            if (animalList.Count == 0)
             {
-                Console.WriteLine($"{i + 1}. {animalList[i].Name}");
+                Console.WriteLine("У власника немає тварин. Спочатку заберіть тварину із зоомагазину.");
+                return null;
             }
+            Console.WriteLine($"Оберіть тварину для {prompt}:");
+            for (int i = 0; i < animalList.Count; i++)
+                Console.WriteLine($"{i + 1}. {animalList[i].Name}");
             if (int.TryParse(Console.ReadLine(), out int selection))
             {
                 if (selection >= 1 && selection <= animalList.Count)
-                {
                     return animalList[selection - 1];
-                }
             }
             Console.WriteLine("Невірний вибір.");
             return null;
         }
+
+        /// <summary>
+        /// Метод для забрання (продажу) тварини із зоомагазину.
+        /// Обрана тварина видаляється із зоомагазину і додається до власника.
+        /// Також підписується обробник подій власника.
+        /// </summary>
+        static void PickupAnimal(Owner owner, PetShop petShop)
+        {
+            List<Animal> shopList = new List<Animal>(petShop.Animals);
+            if (shopList.Count == 0)
+            {
+                Console.WriteLine("У зоомагазині немає тварин.");
+                return;
+            }
+            Console.WriteLine("Оберіть тварину для забирання із зоомагазину:");
+            for (int i = 0; i < shopList.Count; i++)
+                Console.WriteLine($"{i + 1}. {shopList[i].Name}");
+            if (int.TryParse(Console.ReadLine(), out int sel))
+            {
+                if (sel >= 1 && sel <= shopList.Count)
+                {
+                    Animal chosen = petShop.SellAnimal(sel - 1);
+                    if (chosen != null)
+                    {
+                        // Позначаємо, що тварина більше не знаходиться в магазині:
+                        chosen.IsInPetShop = false;
+                        owner.AddAnimal(chosen);
+                        // Підписка власника на події тварини
+                        chosen.AnimalStateChanged += owner.AnimalStateChangedHandler;
+                        Console.WriteLine($"Тварину {chosen.Name} забрано з зоомагазину і додано до вашого парку.");
+                    }
+                    else
+                        Console.WriteLine("Помилка при забиранні тварини.");
+                }
+                else
+                    Console.WriteLine("Невірний вибір.");
+            }
+            else
+                Console.WriteLine("Невірний формат вводу.");
+        }
+
     }
 }

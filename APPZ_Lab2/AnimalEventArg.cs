@@ -2,9 +2,9 @@
 
 namespace APPZ_Lab2
 {
-
+    
     // Аргументи для подій зміни стану тварини.
-
+    
     public class AnimalEventArgs : EventArgs
     {
         public string Message { get; }
@@ -19,4 +19,3 @@ namespace APPZ_Lab2
         }
     }
 }
-
