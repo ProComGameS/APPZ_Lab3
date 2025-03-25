@@ -1,47 +1,37 @@
 ﻿using System;
 
-public class Lizard : Animal
+namespace APPZ_Lab2
 {
-    public Lizard(string name) : base(name)
-    {
-        HungryEvent += HandleHungryEvent; // Підписка на подію
-    }
 
-    public override void MakeSound()
-    {
-        if (!IsHungry)
-        {
-            Console.WriteLine($"{Name} is making a hissing sound.");
-        }
-        else
-        {
-            Console.WriteLine($"{Name} is too hungry to make a sound.");
-        }
-    }
+    // Клас для ящірки. Наслідує загальні властивості з Animal.
+    // Для ящірки методи Sing та Fly не реалізовано – вона не має таких здібностей.
+    // Метод Run трактовано як повзання із швидким переміщенням.
 
-    public override void Move()
+    public class Lizard : Animal
     {
-        if (!IsHungry || DateTime.Now - LastFedTime <= TimeSpan.FromHours(8))
-        {
-            Console.WriteLine($"{Name} is running.");
-        }
-        else
-        {
-            Console.WriteLine($"{Name} is crawling because it is too hungry to run.");
-        }
-    }
+        public Lizard(string name, int currentTime) : base(name, currentTime) { }
 
-    public void PerformAction()
-    {
-        if (!IsHungry)
+        public override void Run(int simulationTime)
         {
-            Move();
+            if (!IsAlive) return;
+            if (!CheckFoodForActivity(simulationTime))
+            {
+                OnAnimalStateChanged($"{Name} занадто голодний(на), щоб швидко повзати.", simulationTime);
+                return;
+            }
+            OnAnimalStateChanged($"{Name} швидко повзе у годину {simulationTime}.", simulationTime);
         }
-        MakeSound();
-    }
 
-    private void HandleHungryEvent(object sender, EventArgs e)
-    {
-        Console.WriteLine($"The lizard {Name} is hungry and cannot run properly.");
+        public override void Sing(int simulationTime)
+        {
+            if (!IsAlive) return;
+            OnAnimalStateChanged($"{Name} не може співати.", simulationTime);
+        }
+
+        public override void Fly(int simulationTime)
+        {
+            if (!IsAlive) return;
+            OnAnimalStateChanged($"{Name} не може літати.", simulationTime);
+        }
     }
 }

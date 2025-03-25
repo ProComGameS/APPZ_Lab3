@@ -3,40 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\sas20\\source\\repos\\APPZ_Lab2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E2B65A51-50ED-493D-8B5D-CD90F9A51CD1}|APPZ_Lab2\\APPZ_Lab2.csproj|c:\\users\\sas20\\source\\repos\\appz_lab2\\appz_lab2\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E2B65A51-50ED-493D-8B5D-CD90F9A51CD1}|APPZ_Lab2\\APPZ_Lab2.csproj|solutionrelative:appz_lab2\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E2B65A51-50ED-493D-8B5D-CD90F9A51CD1}|APPZ_Lab2\\APPZ_Lab2.csproj|c:\\users\\sas20\\source\\repos\\appz_lab2\\appz_lab2\\canary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E2B65A51-50ED-493D-8B5D-CD90F9A51CD1}|APPZ_Lab2\\APPZ_Lab2.csproj|solutionrelative:appz_lab2\\canary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E2B65A51-50ED-493D-8B5D-CD90F9A51CD1}|APPZ_Lab2\\APPZ_Lab2.csproj|c:\\users\\sas20\\source\\repos\\appz_lab2\\appz_lab2\\dog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E2B65A51-50ED-493D-8B5D-CD90F9A51CD1}|APPZ_Lab2\\APPZ_Lab2.csproj|solutionrelative:appz_lab2\\dog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E2B65A51-50ED-493D-8B5D-CD90F9A51CD1}|APPZ_Lab2\\APPZ_Lab2.csproj|c:\\users\\sas20\\source\\repos\\appz_lab2\\appz_lab2\\iflyer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E2B65A51-50ED-493D-8B5D-CD90F9A51CD1}|APPZ_Lab2\\APPZ_Lab2.csproj|solutionrelative:appz_lab2\\iflyer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E2B65A51-50ED-493D-8B5D-CD90F9A51CD1}|APPZ_Lab2\\APPZ_Lab2.csproj|c:\\users\\sas20\\source\\repos\\appz_lab2\\appz_lab2\\irunner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E2B65A51-50ED-493D-8B5D-CD90F9A51CD1}|APPZ_Lab2\\APPZ_Lab2.csproj|solutionrelative:appz_lab2\\irunner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E2B65A51-50ED-493D-8B5D-CD90F9A51CD1}|APPZ_Lab2\\APPZ_Lab2.csproj|c:\\users\\sas20\\source\\repos\\appz_lab2\\appz_lab2\\isinger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E2B65A51-50ED-493D-8B5D-CD90F9A51CD1}|APPZ_Lab2\\APPZ_Lab2.csproj|solutionrelative:appz_lab2\\isinger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E2B65A51-50ED-493D-8B5D-CD90F9A51CD1}|APPZ_Lab2\\APPZ_Lab2.csproj|c:\\users\\sas20\\source\\repos\\appz_lab2\\appz_lab2\\lizard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E2B65A51-50ED-493D-8B5D-CD90F9A51CD1}|APPZ_Lab2\\APPZ_Lab2.csproj|solutionrelative:appz_lab2\\lizard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E2B65A51-50ED-493D-8B5D-CD90F9A51CD1}|APPZ_Lab2\\APPZ_Lab2.csproj|c:\\users\\sas20\\source\\repos\\appz_lab2\\appz_lab2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2B65A51-50ED-493D-8B5D-CD90F9A51CD1}|APPZ_Lab2\\APPZ_Lab2.csproj|solutionrelative:appz_lab2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E2B65A51-50ED-493D-8B5D-CD90F9A51CD1}|APPZ_Lab2\\APPZ_Lab2.csproj|c:\\users\\sas20\\source\\repos\\appz_lab2\\appz_lab2\\owner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E2B65A51-50ED-493D-8B5D-CD90F9A51CD1}|APPZ_Lab2\\APPZ_Lab2.csproj|solutionrelative:appz_lab2\\owner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E2B65A51-50ED-493D-8B5D-CD90F9A51CD1}|APPZ_Lab2\\APPZ_Lab2.csproj|c:\\users\\sas20\\source\\repos\\appz_lab2\\appz_lab2\\petstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E2B65A51-50ED-493D-8B5D-CD90F9A51CD1}|APPZ_Lab2\\APPZ_Lab2.csproj|solutionrelative:appz_lab2\\petstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E2B65A51-50ED-493D-8B5D-CD90F9A51CD1}|APPZ_Lab2\\APPZ_Lab2.csproj|c:\\users\\sas20\\source\\repos\\appz_lab2\\appz_lab2\\lizard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2B65A51-50ED-493D-8B5D-CD90F9A51CD1}|APPZ_Lab2\\APPZ_Lab2.csproj|solutionrelative:appz_lab2\\lizard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2B65A51-50ED-493D-8B5D-CD90F9A51CD1}|APPZ_Lab2\\APPZ_Lab2.csproj|c:\\users\\sas20\\source\\repos\\appz_lab2\\appz_lab2\\dog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2B65A51-50ED-493D-8B5D-CD90F9A51CD1}|APPZ_Lab2\\APPZ_Lab2.csproj|solutionrelative:appz_lab2\\dog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2B65A51-50ED-493D-8B5D-CD90F9A51CD1}|APPZ_Lab2\\APPZ_Lab2.csproj|c:\\users\\sas20\\source\\repos\\appz_lab2\\appz_lab2\\canary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2B65A51-50ED-493D-8B5D-CD90F9A51CD1}|APPZ_Lab2\\APPZ_Lab2.csproj|solutionrelative:appz_lab2\\canary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2B65A51-50ED-493D-8B5D-CD90F9A51CD1}|APPZ_Lab2\\APPZ_Lab2.csproj|c:\\users\\sas20\\source\\repos\\appz_lab2\\appz_lab2\\animalfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2B65A51-50ED-493D-8B5D-CD90F9A51CD1}|APPZ_Lab2\\APPZ_Lab2.csproj|solutionrelative:appz_lab2\\animalfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2B65A51-50ED-493D-8B5D-CD90F9A51CD1}|APPZ_Lab2\\APPZ_Lab2.csproj|c:\\users\\sas20\\source\\repos\\appz_lab2\\appz_lab2\\animaleventarg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2B65A51-50ED-493D-8B5D-CD90F9A51CD1}|APPZ_Lab2\\APPZ_Lab2.csproj|solutionrelative:appz_lab2\\animaleventarg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2B65A51-50ED-493D-8B5D-CD90F9A51CD1}|APPZ_Lab2\\APPZ_Lab2.csproj|c:\\users\\sas20\\source\\repos\\appz_lab2\\appz_lab2\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2B65A51-50ED-493D-8B5D-CD90F9A51CD1}|APPZ_Lab2\\APPZ_Lab2.csproj|solutionrelative:appz_lab2\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,117 +42,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IRunner.cs",
-              "DocumentMoniker": "C:\\Users\\sas20\\source\\repos\\APPZ_Lab2\\APPZ_Lab2\\IRunner.cs",
-              "RelativeDocumentMoniker": "APPZ_Lab2\\IRunner.cs",
-              "ToolTip": "C:\\Users\\sas20\\source\\repos\\APPZ_Lab2\\APPZ_Lab2\\IRunner.cs",
-              "RelativeToolTip": "APPZ_Lab2\\IRunner.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-16T15:59:05.827Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ISinger.cs",
-              "DocumentMoniker": "C:\\Users\\sas20\\source\\repos\\APPZ_Lab2\\APPZ_Lab2\\ISinger.cs",
-              "RelativeDocumentMoniker": "APPZ_Lab2\\ISinger.cs",
-              "ToolTip": "C:\\Users\\sas20\\source\\repos\\APPZ_Lab2\\APPZ_Lab2\\ISinger.cs",
-              "RelativeToolTip": "APPZ_Lab2\\ISinger.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-16T15:58:45.173Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IFlyer.cs",
-              "DocumentMoniker": "C:\\Users\\sas20\\source\\repos\\APPZ_Lab2\\APPZ_Lab2\\IFlyer.cs",
-              "RelativeDocumentMoniker": "APPZ_Lab2\\IFlyer.cs",
-              "ToolTip": "C:\\Users\\sas20\\source\\repos\\APPZ_Lab2\\APPZ_Lab2\\IFlyer.cs",
-              "RelativeToolTip": "APPZ_Lab2\\IFlyer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-16T15:58:07.427Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Animal.cs",
-              "DocumentMoniker": "C:\\Users\\sas20\\source\\repos\\APPZ_Lab2\\APPZ_Lab2\\Animal.cs",
-              "RelativeDocumentMoniker": "APPZ_Lab2\\Animal.cs",
-              "ToolTip": "C:\\Users\\sas20\\source\\repos\\APPZ_Lab2\\APPZ_Lab2\\Animal.cs",
-              "RelativeToolTip": "APPZ_Lab2\\Animal.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T15:45:40.235Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Dog.cs",
-              "DocumentMoniker": "C:\\Users\\sas20\\source\\repos\\APPZ_Lab2\\APPZ_Lab2\\Dog.cs",
-              "RelativeDocumentMoniker": "APPZ_Lab2\\Dog.cs",
-              "ToolTip": "C:\\Users\\sas20\\source\\repos\\APPZ_Lab2\\APPZ_Lab2\\Dog.cs",
-              "RelativeToolTip": "APPZ_Lab2\\Dog.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T15:45:30.555Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Canary.cs",
-              "DocumentMoniker": "C:\\Users\\sas20\\source\\repos\\APPZ_Lab2\\APPZ_Lab2\\Canary.cs",
-              "RelativeDocumentMoniker": "APPZ_Lab2\\Canary.cs",
-              "ToolTip": "C:\\Users\\sas20\\source\\repos\\APPZ_Lab2\\APPZ_Lab2\\Canary.cs",
-              "RelativeToolTip": "APPZ_Lab2\\Canary.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEYAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T15:44:43.343Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Lizard.cs",
-              "DocumentMoniker": "C:\\Users\\sas20\\source\\repos\\APPZ_Lab2\\APPZ_Lab2\\Lizard.cs",
-              "RelativeDocumentMoniker": "APPZ_Lab2\\Lizard.cs",
-              "ToolTip": "C:\\Users\\sas20\\source\\repos\\APPZ_Lab2\\APPZ_Lab2\\Lizard.cs",
-              "RelativeToolTip": "APPZ_Lab2\\Lizard.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T15:45:02.06Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Owner.cs",
-              "DocumentMoniker": "C:\\Users\\sas20\\source\\repos\\APPZ_Lab2\\APPZ_Lab2\\Owner.cs",
-              "RelativeDocumentMoniker": "APPZ_Lab2\\Owner.cs",
-              "ToolTip": "C:\\Users\\sas20\\source\\repos\\APPZ_Lab2\\APPZ_Lab2\\Owner.cs",
-              "RelativeToolTip": "APPZ_Lab2\\Owner.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T15:44:49.153Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "PetStore.cs",
-              "DocumentMoniker": "C:\\Users\\sas20\\source\\repos\\APPZ_Lab2\\APPZ_Lab2\\PetStore.cs",
-              "RelativeDocumentMoniker": "APPZ_Lab2\\PetStore.cs",
-              "ToolTip": "C:\\Users\\sas20\\source\\repos\\APPZ_Lab2\\APPZ_Lab2\\PetStore.cs",
-              "RelativeToolTip": "APPZ_Lab2\\PetStore.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T15:44:23.779Z"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
@@ -164,6 +51,110 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\sas20\\source\\repos\\APPZ_Lab2\\APPZ_Lab2\\Program.cs",
+              "RelativeDocumentMoniker": "APPZ_Lab2\\Program.cs",
+              "ToolTip": "C:\\Users\\sas20\\source\\repos\\APPZ_Lab2\\APPZ_Lab2\\Program.cs",
+              "RelativeToolTip": "APPZ_Lab2\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJ0AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T14:20:39.874Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AnimalFactory.cs",
+              "DocumentMoniker": "C:\\Users\\sas20\\source\\repos\\APPZ_Lab2\\APPZ_Lab2\\AnimalFactory.cs",
+              "RelativeDocumentMoniker": "APPZ_Lab2\\AnimalFactory.cs",
+              "ToolTip": "C:\\Users\\sas20\\source\\repos\\APPZ_Lab2\\APPZ_Lab2\\AnimalFactory.cs",
+              "RelativeToolTip": "APPZ_Lab2\\AnimalFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T14:20:21.561Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AnimalEventArg.cs",
+              "DocumentMoniker": "C:\\Users\\sas20\\source\\repos\\APPZ_Lab2\\APPZ_Lab2\\AnimalEventArg.cs",
+              "RelativeDocumentMoniker": "APPZ_Lab2\\AnimalEventArg.cs",
+              "ToolTip": "C:\\Users\\sas20\\source\\repos\\APPZ_Lab2\\APPZ_Lab2\\AnimalEventArg.cs",
+              "RelativeToolTip": "APPZ_Lab2\\AnimalEventArg.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T14:18:53.096Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Animal.cs",
+              "DocumentMoniker": "C:\\Users\\sas20\\source\\repos\\APPZ_Lab2\\APPZ_Lab2\\Animal.cs",
+              "RelativeDocumentMoniker": "APPZ_Lab2\\Animal.cs",
+              "ToolTip": "C:\\Users\\sas20\\source\\repos\\APPZ_Lab2\\APPZ_Lab2\\Animal.cs",
+              "RelativeToolTip": "APPZ_Lab2\\Animal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIUAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T15:45:40.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Dog.cs",
+              "DocumentMoniker": "C:\\Users\\sas20\\source\\repos\\APPZ_Lab2\\APPZ_Lab2\\Dog.cs",
+              "RelativeDocumentMoniker": "APPZ_Lab2\\Dog.cs",
+              "ToolTip": "C:\\Users\\sas20\\source\\repos\\APPZ_Lab2\\APPZ_Lab2\\Dog.cs",
+              "RelativeToolTip": "APPZ_Lab2\\Dog.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T15:45:30.555Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Canary.cs",
+              "DocumentMoniker": "C:\\Users\\sas20\\source\\repos\\APPZ_Lab2\\APPZ_Lab2\\Canary.cs",
+              "RelativeDocumentMoniker": "APPZ_Lab2\\Canary.cs",
+              "ToolTip": "C:\\Users\\sas20\\source\\repos\\APPZ_Lab2\\APPZ_Lab2\\Canary.cs",
+              "RelativeToolTip": "APPZ_Lab2\\Canary.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T15:44:43.343Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Lizard.cs",
+              "DocumentMoniker": "C:\\Users\\sas20\\source\\repos\\APPZ_Lab2\\APPZ_Lab2\\Lizard.cs",
+              "RelativeDocumentMoniker": "APPZ_Lab2\\Lizard.cs",
+              "ToolTip": "C:\\Users\\sas20\\source\\repos\\APPZ_Lab2\\APPZ_Lab2\\Lizard.cs",
+              "RelativeToolTip": "APPZ_Lab2\\Lizard.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T15:45:02.06Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Owner.cs",
+              "DocumentMoniker": "C:\\Users\\sas20\\source\\repos\\APPZ_Lab2\\APPZ_Lab2\\Owner.cs",
+              "RelativeDocumentMoniker": "APPZ_Lab2\\Owner.cs",
+              "ToolTip": "C:\\Users\\sas20\\source\\repos\\APPZ_Lab2\\APPZ_Lab2\\Owner.cs",
+              "RelativeToolTip": "APPZ_Lab2\\Owner.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T15:44:49.153Z",
+              "EditorCaption": ""
             }
           ]
         }

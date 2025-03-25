@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("APPZ_Lab2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8b7152499fdbea8ca422587eaf59aaa29e21a511")]
 [assembly: System.Reflection.AssemblyProductAttribute("APPZ_Lab2")]
 [assembly: System.Reflection.AssemblyTitleAttribute("APPZ_Lab2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

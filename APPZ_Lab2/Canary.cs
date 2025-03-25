@@ -1,72 +1,24 @@
 ﻿using System;
 
-public class Canary : Animal, ISinger, IFlyer
+namespace APPZ_Lab2
 {
-    public Canary(string name) : base(name)
-    {
-        HungryEvent += HandleHungryEvent; // Підписка на подію
-    }
 
-    public override void MakeSound()
-    {
-        if (!IsHungry)
-        {
-            Console.WriteLine($"{Name} is singing a melody.");
-        }
-        else
-        {
-            Console.WriteLine($"{Name} is too hungry to make a sound.");
-        }
-    }
+    // Клас для канарки. Наслідує загальні властивості з Animal.
+    // Перевизначено метод Run – канарка рухається по-іншому на землі.
 
-    public override void Move()
+    public class Canary : Animal
     {
-        if (!IsHungry || DateTime.Now - LastFedTime <= TimeSpan.FromHours(8))
-        {
-            Console.WriteLine($"{Name} is flying.");
-        }
-        else
-        {
-            Console.WriteLine($"{Name} is walking because it is too hungry to fly.");
-        }
-    }
+        public Canary(string name, int currentTime) : base(name, currentTime) { }
 
-    public void Sing()
-    {
-        if (!IsHungry)
+        public override void Run(int simulationTime)
         {
-            Console.WriteLine($"{Name} is singing happily.");
+            if (!IsAlive) return;
+            if (!CheckFoodForActivity(simulationTime))
+            {
+                OnAnimalStateChanged($"{Name} занадто голодний(на), щоб бігати.", simulationTime);
+                return;
+            }
+            OnAnimalStateChanged($"{Name} ледь пробігає по землі у годину {simulationTime}.", simulationTime);
         }
-        else
-        {
-            Console.WriteLine($"{Name} is too hungry to sing.");
-        }
-    }
-
-    public void Fly()
-    {
-        if (!IsHungry)
-        {
-            Console.WriteLine($"{Name} is flying gracefully.");
-        }
-        else
-        {
-            Console.WriteLine($"{Name} is too hungry to fly.");
-        }
-    }
-
-    public void PerformAction()
-    {
-        if (!IsHungry)
-        {
-            Sing();
-            Fly();
-        }
-        MakeSound();
-    }
-
-    private void HandleHungryEvent(object sender, EventArgs e)
-    {
-        Console.WriteLine($"The canary {Name} is hungry and cannot sing or fly properly.");
     }
 }

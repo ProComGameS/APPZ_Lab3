@@ -1,57 +1,55 @@
-﻿using System;
+﻿using APPZ_Lab2;
+using System;
 using System.Collections.Generic;
 
-public class Owner
+namespace APPZ_Lab2
 {
-    public string Name { get; set; }
-    public List<Animal> Pets { get; set; }
 
-    public Owner(string name)
+    // Клас, що представляє хазяїна. Він може мати декілька тварин і
+    // отримувати сповіщення про зміну їхнього стану (Observer Pattern).
+ 
+    public class Owner
     {
-        Name = name;
-        Pets = new List<Animal>();
-    }
+        public string Name { get; }
+        private List<Animal> animals;
 
-    public void AddPet(Animal pet)
-    {
-        Pets.Add(pet);
-        Console.WriteLine($"{Name} has adopted {pet.Name}.");
-    }
-
-    public void ReleasePet(Animal pet)
-    {
-        if (Pets.Contains(pet))
+        public Owner(string name)
         {
-            Pets.Remove(pet);
-            Console.WriteLine($"{Name} has released {pet.Name} into the wild.");
+            Name = name;
+            animals = new List<Animal>();
         }
-        else
-        {
-            Console.WriteLine($"{pet.Name} is not a pet of {Name}.");
-        }
-    }
 
-    public void FeedAllPets()
-    {
-        foreach (var pet in Pets)
+        public void AddAnimal(Animal animal)
         {
-            pet.Eat();
+            animals.Add(animal);
         }
-    }
 
-    public void CleanAllPets()
-    {
-        foreach (var pet in Pets)
+        public IEnumerable<Animal> Animals => animals;
+
+        // Обробник подій зміни стану тварин.
+        // Тепер він є public, щоб його можна було підписати напряму з Program.
+  
+        public void AnimalStateChangedHandler(object sender, AnimalEventArgs e)
         {
-            pet.Clean();
+            // Тут симулюємо отримання сповіщення (наприклад, SMS)
+            Console.WriteLine($"[Сповіщення для {Name}]: {e.Message}");
         }
-    }
 
-    public void ShowPetStatus()
-    {
-        foreach (var pet in Pets)
+        // Допоміжні методи для роботи з усіма тваринами (за бажанням).
+        public void FeedAllAnimals(int simulationTime)
         {
-            Console.WriteLine($"{pet.Name} - Hungry: {pet.IsHungry}, Happy: {pet.IsHappy}");
+            foreach (var animal in animals)
+            {
+                animal.Eat(simulationTime);
+            }
+        }
+
+        public void CleanAllAnimals(int simulationTime)
+        {
+            foreach (var animal in animals)
+            {
+                animal.Clean(simulationTime);
+            }
         }
     }
 }

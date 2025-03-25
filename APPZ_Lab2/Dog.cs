@@ -1,49 +1,31 @@
 ﻿using System;
 
-public class Dog : Animal, IRunner
+namespace APPZ_Lab2
 {
-    public Dog(string name) : base(name)
-    {
-        HungryEvent += HandleHungryEvent; // Підписка на подію
-    }
 
-    public override void MakeSound()
-    {
-        Console.WriteLine($"{Name} is barking.");
-    }
+    // Клас для собаки. Наслідує загальні властивості з Animal.
+    // Перевизначено метод Sing – замість співу собака гавкає.
+    // Методу Fly надано конкретну реалізацію – собака не може літати.
 
-    public override void Move()
+    public class Dog : Animal
     {
-        if (!IsHungry || DateTime.Now - LastFedTime <= TimeSpan.FromHours(8))
+        public Dog(string name, int currentTime) : base(name, currentTime) { }
+
+        public override void Sing(int simulationTime)
         {
-            Console.WriteLine($"{Name} is running.");
+            if (!IsAlive) return;
+            if (!CheckFoodForActivity(simulationTime))
+            {
+                OnAnimalStateChanged($"{Name} занадто голодний(на), щоб гавкати.", simulationTime);
+                return;
+            }
+            OnAnimalStateChanged($"{Name} гавкaє у годину {simulationTime}.", simulationTime);
         }
-        else
-        {
-            Console.WriteLine($"{Name} is walking.");
-        }
-    }
 
-    public void Run()
-    {
-        if (!IsHungry)
+        public override void Fly(int simulationTime)
         {
-            Console.WriteLine($"{Name} is happily running.");
+            if (!IsAlive) return;
+            OnAnimalStateChanged($"{Name} не може літати.", simulationTime);
         }
-        else
-        {
-            Console.WriteLine($"{Name} is too hungry to run.");
-        }
-    }
-
-    public void PerformAction()
-    {
-        Run();
-        MakeSound();
-    }
-
-    private void HandleHungryEvent(object sender, EventArgs e)
-    {
-        Console.WriteLine($"The dog {Name} is hungry and needs immediate attention!");
     }
 }
