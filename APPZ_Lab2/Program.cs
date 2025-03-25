@@ -10,6 +10,9 @@ namespace APPZ_Lab2
         {
             
             int currentTime = 0; // Поточний час симуляції (в годинах)
+            Console.OutputEncoding = System.Text.Encoding.UTF8;
+
+
 
             // Створюємо власника та зоомагазин.
             Owner owner = new Owner("John");
