@@ -1,0 +1,14 @@
+C:\Users\sas20\source\repos\APPZ_Lab2\APPZ_Lab2\bin\Debug\net8.0\APPZ_Lab2.exe
+C:\Users\sas20\source\repos\APPZ_Lab2\APPZ_Lab2\bin\Debug\net8.0\APPZ_Lab2.deps.json
+C:\Users\sas20\source\repos\APPZ_Lab2\APPZ_Lab2\bin\Debug\net8.0\APPZ_Lab2.runtimeconfig.json
+C:\Users\sas20\source\repos\APPZ_Lab2\APPZ_Lab2\bin\Debug\net8.0\APPZ_Lab2.dll
+C:\Users\sas20\source\repos\APPZ_Lab2\APPZ_Lab2\bin\Debug\net8.0\APPZ_Lab2.pdb
+C:\Users\sas20\source\repos\APPZ_Lab2\APPZ_Lab2\obj\Debug\net8.0\APPZ_Lab2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sas20\source\repos\APPZ_Lab2\APPZ_Lab2\obj\Debug\net8.0\APPZ_Lab2.AssemblyInfoInputs.cache
+C:\Users\sas20\source\repos\APPZ_Lab2\APPZ_Lab2\obj\Debug\net8.0\APPZ_Lab2.AssemblyInfo.cs
+C:\Users\sas20\source\repos\APPZ_Lab2\APPZ_Lab2\obj\Debug\net8.0\APPZ_Lab2.csproj.CoreCompileInputs.cache
+C:\Users\sas20\source\repos\APPZ_Lab2\APPZ_Lab2\obj\Debug\net8.0\APPZ_Lab2.dll
+C:\Users\sas20\source\repos\APPZ_Lab2\APPZ_Lab2\obj\Debug\net8.0\refint\APPZ_Lab2.dll
+C:\Users\sas20\source\repos\APPZ_Lab2\APPZ_Lab2\obj\Debug\net8.0\APPZ_Lab2.pdb
+C:\Users\sas20\source\repos\APPZ_Lab2\APPZ_Lab2\obj\Debug\net8.0\APPZ_Lab2.genruntimeconfig.cache
+C:\Users\sas20\source\repos\APPZ_Lab2\APPZ_Lab2\obj\Debug\net8.0\ref\APPZ_Lab2.dll
