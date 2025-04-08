@@ -7,36 +7,48 @@
       "RelativeMoniker": "D:0:0:{E2B65A51-50ED-493D-8B5D-CD90F9A51CD1}|APPZ_Lab2\\APPZ_Lab2.csproj|solutionrelative:appz_lab2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E2B65A51-50ED-493D-8B5D-CD90F9A51CD1}|APPZ_Lab2\\APPZ_Lab2.csproj|c:\\users\\sas20\\source\\repos\\appz_lab2\\appz_lab2\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E2B65A51-50ED-493D-8B5D-CD90F9A51CD1}|APPZ_Lab2\\APPZ_Lab2.csproj|solutionrelative:appz_lab2\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E2B65A51-50ED-493D-8B5D-CD90F9A51CD1}|APPZ_Lab2\\APPZ_Lab2.csproj|c:\\users\\sas20\\source\\repos\\appz_lab2\\appz_lab2\\lizardfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2B65A51-50ED-493D-8B5D-CD90F9A51CD1}|APPZ_Lab2\\APPZ_Lab2.csproj|solutionrelative:appz_lab2\\lizardfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E2B65A51-50ED-493D-8B5D-CD90F9A51CD1}|APPZ_Lab2\\APPZ_Lab2.csproj|c:\\users\\sas20\\source\\repos\\appz_lab2\\appz_lab2\\animalfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E2B65A51-50ED-493D-8B5D-CD90F9A51CD1}|APPZ_Lab2\\APPZ_Lab2.csproj|solutionrelative:appz_lab2\\animalfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E2B65A51-50ED-493D-8B5D-CD90F9A51CD1}|APPZ_Lab2\\APPZ_Lab2.csproj|c:\\users\\sas20\\source\\repos\\appz_lab2\\appz_lab2\\canaryfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2B65A51-50ED-493D-8B5D-CD90F9A51CD1}|APPZ_Lab2\\APPZ_Lab2.csproj|solutionrelative:appz_lab2\\canaryfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E2B65A51-50ED-493D-8B5D-CD90F9A51CD1}|APPZ_Lab2\\APPZ_Lab2.csproj|c:\\users\\sas20\\source\\repos\\appz_lab2\\appz_lab2\\canary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E2B65A51-50ED-493D-8B5D-CD90F9A51CD1}|APPZ_Lab2\\APPZ_Lab2.csproj|solutionrelative:appz_lab2\\canary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E2B65A51-50ED-493D-8B5D-CD90F9A51CD1}|APPZ_Lab2\\APPZ_Lab2.csproj|c:\\users\\sas20\\source\\repos\\appz_lab2\\appz_lab2\\dogfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2B65A51-50ED-493D-8B5D-CD90F9A51CD1}|APPZ_Lab2\\APPZ_Lab2.csproj|solutionrelative:appz_lab2\\dogfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2B65A51-50ED-493D-8B5D-CD90F9A51CD1}|APPZ_Lab2\\APPZ_Lab2.csproj|c:\\users\\sas20\\source\\repos\\appz_lab2\\appz_lab2\\ianimalfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2B65A51-50ED-493D-8B5D-CD90F9A51CD1}|APPZ_Lab2\\APPZ_Lab2.csproj|solutionrelative:appz_lab2\\ianimalfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E2B65A51-50ED-493D-8B5D-CD90F9A51CD1}|APPZ_Lab2\\APPZ_Lab2.csproj|c:\\users\\sas20\\source\\repos\\appz_lab2\\appz_lab2\\dog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E2B65A51-50ED-493D-8B5D-CD90F9A51CD1}|APPZ_Lab2\\APPZ_Lab2.csproj|solutionrelative:appz_lab2\\dog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E2B65A51-50ED-493D-8B5D-CD90F9A51CD1}|APPZ_Lab2\\APPZ_Lab2.csproj|c:\\users\\sas20\\source\\repos\\appz_lab2\\appz_lab2\\lizard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E2B65A51-50ED-493D-8B5D-CD90F9A51CD1}|APPZ_Lab2\\APPZ_Lab2.csproj|solutionrelative:appz_lab2\\lizard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E2B65A51-50ED-493D-8B5D-CD90F9A51CD1}|APPZ_Lab2\\APPZ_Lab2.csproj|c:\\users\\sas20\\source\\repos\\appz_lab2\\appz_lab2\\canary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2B65A51-50ED-493D-8B5D-CD90F9A51CD1}|APPZ_Lab2\\APPZ_Lab2.csproj|solutionrelative:appz_lab2\\canary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2B65A51-50ED-493D-8B5D-CD90F9A51CD1}|APPZ_Lab2\\APPZ_Lab2.csproj|c:\\users\\sas20\\source\\repos\\appz_lab2\\appz_lab2\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2B65A51-50ED-493D-8B5D-CD90F9A51CD1}|APPZ_Lab2\\APPZ_Lab2.csproj|solutionrelative:appz_lab2\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E2B65A51-50ED-493D-8B5D-CD90F9A51CD1}|APPZ_Lab2\\APPZ_Lab2.csproj|c:\\users\\sas20\\source\\repos\\appz_lab2\\appz_lab2\\owner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E2B65A51-50ED-493D-8B5D-CD90F9A51CD1}|APPZ_Lab2\\APPZ_Lab2.csproj|solutionrelative:appz_lab2\\owner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E2B65A51-50ED-493D-8B5D-CD90F9A51CD1}|APPZ_Lab2\\APPZ_Lab2.csproj|c:\\users\\sas20\\source\\repos\\appz_lab2\\appz_lab2\\petshop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E2B65A51-50ED-493D-8B5D-CD90F9A51CD1}|APPZ_Lab2\\APPZ_Lab2.csproj|solutionrelative:appz_lab2\\petshop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E2B65A51-50ED-493D-8B5D-CD90F9A51CD1}|APPZ_Lab2\\APPZ_Lab2.csproj|c:\\users\\sas20\\source\\repos\\appz_lab2\\appz_lab2\\animaleventarg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E2B65A51-50ED-493D-8B5D-CD90F9A51CD1}|APPZ_Lab2\\APPZ_Lab2.csproj|solutionrelative:appz_lab2\\animaleventarg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2B65A51-50ED-493D-8B5D-CD90F9A51CD1}|APPZ_Lab2\\APPZ_Lab2.csproj|c:\\users\\sas20\\source\\repos\\appz_lab2\\appz_lab2\\lizard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2B65A51-50ED-493D-8B5D-CD90F9A51CD1}|APPZ_Lab2\\APPZ_Lab2.csproj|solutionrelative:appz_lab2\\lizard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2B65A51-50ED-493D-8B5D-CD90F9A51CD1}|APPZ_Lab2\\APPZ_Lab2.csproj|c:\\users\\sas20\\source\\repos\\appz_lab2\\appz_lab2\\petshop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2B65A51-50ED-493D-8B5D-CD90F9A51CD1}|APPZ_Lab2\\APPZ_Lab2.csproj|solutionrelative:appz_lab2\\petshop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,7 +58,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,13 +70,65 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
+              "Title": "IAnimalFactory.cs",
+              "DocumentMoniker": "C:\\Users\\sas20\\source\\repos\\APPZ_Lab2\\APPZ_Lab2\\IAnimalFactory.cs",
+              "RelativeDocumentMoniker": "APPZ_Lab2\\IAnimalFactory.cs",
+              "ToolTip": "C:\\Users\\sas20\\source\\repos\\APPZ_Lab2\\APPZ_Lab2\\IAnimalFactory.cs",
+              "RelativeToolTip": "APPZ_Lab2\\IAnimalFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T06:04:19.519Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LizardFactory.cs",
+              "DocumentMoniker": "C:\\Users\\sas20\\source\\repos\\APPZ_Lab2\\APPZ_Lab2\\LizardFactory.cs",
+              "RelativeDocumentMoniker": "APPZ_Lab2\\LizardFactory.cs",
+              "ToolTip": "C:\\Users\\sas20\\source\\repos\\APPZ_Lab2\\APPZ_Lab2\\LizardFactory.cs",
+              "RelativeToolTip": "APPZ_Lab2\\LizardFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T05:36:08.826Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CanaryFactory.cs",
+              "DocumentMoniker": "C:\\Users\\sas20\\source\\repos\\APPZ_Lab2\\APPZ_Lab2\\CanaryFactory.cs",
+              "RelativeDocumentMoniker": "APPZ_Lab2\\CanaryFactory.cs",
+              "ToolTip": "C:\\Users\\sas20\\source\\repos\\APPZ_Lab2\\APPZ_Lab2\\CanaryFactory.cs",
+              "RelativeToolTip": "APPZ_Lab2\\CanaryFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T05:35:27.873Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DogFactory.cs",
+              "DocumentMoniker": "C:\\Users\\sas20\\source\\repos\\APPZ_Lab2\\APPZ_Lab2\\DogFactory.cs",
+              "RelativeDocumentMoniker": "APPZ_Lab2\\DogFactory.cs",
+              "ToolTip": "C:\\Users\\sas20\\source\\repos\\APPZ_Lab2\\APPZ_Lab2\\DogFactory.cs",
+              "RelativeToolTip": "APPZ_Lab2\\DogFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T05:34:49.327Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "PetShop.cs",
               "DocumentMoniker": "C:\\Users\\sas20\\source\\repos\\APPZ_Lab2\\APPZ_Lab2\\PetShop.cs",
               "RelativeDocumentMoniker": "APPZ_Lab2\\PetShop.cs",
               "ToolTip": "C:\\Users\\sas20\\source\\repos\\APPZ_Lab2\\APPZ_Lab2\\PetShop.cs",
               "RelativeToolTip": "APPZ_Lab2\\PetShop.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAIwBwAAAA7AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-25T13:28:26.642Z"
             },
@@ -76,62 +140,50 @@
               "RelativeDocumentMoniker": "APPZ_Lab2\\Program.cs",
               "ToolTip": "C:\\Users\\sas20\\source\\repos\\APPZ_Lab2\\APPZ_Lab2\\Program.cs",
               "RelativeToolTip": "APPZ_Lab2\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKMAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-25T14:20:39.874Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AnimalFactory.cs",
-              "DocumentMoniker": "C:\\Users\\sas20\\source\\repos\\APPZ_Lab2\\APPZ_Lab2\\AnimalFactory.cs",
-              "RelativeDocumentMoniker": "APPZ_Lab2\\AnimalFactory.cs",
-              "ToolTip": "C:\\Users\\sas20\\source\\repos\\APPZ_Lab2\\APPZ_Lab2\\AnimalFactory.cs",
-              "RelativeToolTip": "APPZ_Lab2\\AnimalFactory.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T14:20:21.561Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "AnimalEventArg.cs",
               "DocumentMoniker": "C:\\Users\\sas20\\source\\repos\\APPZ_Lab2\\APPZ_Lab2\\AnimalEventArg.cs",
               "RelativeDocumentMoniker": "APPZ_Lab2\\AnimalEventArg.cs",
               "ToolTip": "C:\\Users\\sas20\\source\\repos\\APPZ_Lab2\\APPZ_Lab2\\AnimalEventArg.cs",
               "RelativeToolTip": "APPZ_Lab2\\AnimalEventArg.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAGAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-25T14:18:53.096Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "Animal.cs",
               "DocumentMoniker": "C:\\Users\\sas20\\source\\repos\\APPZ_Lab2\\APPZ_Lab2\\Animal.cs",
               "RelativeDocumentMoniker": "APPZ_Lab2\\Animal.cs",
               "ToolTip": "C:\\Users\\sas20\\source\\repos\\APPZ_Lab2\\APPZ_Lab2\\Animal.cs",
               "RelativeToolTip": "APPZ_Lab2\\Animal.cs",
-              "ViewState": "AgIAAIgAAAAAAAAAAAAYwLAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADIAAAAAAAAAAAAhwEgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-08T15:45:40.235Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Dog.cs",
               "DocumentMoniker": "C:\\Users\\sas20\\source\\repos\\APPZ_Lab2\\APPZ_Lab2\\Dog.cs",
               "RelativeDocumentMoniker": "APPZ_Lab2\\Dog.cs",
               "ToolTip": "C:\\Users\\sas20\\source\\repos\\APPZ_Lab2\\APPZ_Lab2\\Dog.cs",
               "RelativeToolTip": "APPZ_Lab2\\Dog.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAQwB8AAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAswBwAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-08T15:45:30.555Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "Canary.cs",
               "DocumentMoniker": "C:\\Users\\sas20\\source\\repos\\APPZ_Lab2\\APPZ_Lab2\\Canary.cs",
               "RelativeDocumentMoniker": "APPZ_Lab2\\Canary.cs",
@@ -143,7 +195,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
               "Title": "Lizard.cs",
               "DocumentMoniker": "C:\\Users\\sas20\\source\\repos\\APPZ_Lab2\\APPZ_Lab2\\Lizard.cs",
               "RelativeDocumentMoniker": "APPZ_Lab2\\Lizard.cs",
@@ -155,13 +207,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "Owner.cs",
               "DocumentMoniker": "C:\\Users\\sas20\\source\\repos\\APPZ_Lab2\\APPZ_Lab2\\Owner.cs",
               "RelativeDocumentMoniker": "APPZ_Lab2\\Owner.cs",
               "ToolTip": "C:\\Users\\sas20\\source\\repos\\APPZ_Lab2\\APPZ_Lab2\\Owner.cs",
               "RelativeToolTip": "APPZ_Lab2\\Owner.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-08T15:44:49.153Z"
             }

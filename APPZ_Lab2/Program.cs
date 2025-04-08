@@ -19,9 +19,13 @@ namespace APPZ_Lab2
             PetShop petShop = new PetShop("Lapki");
 
             // Створення тварин
-            Animal dog = AnimalFactory.CreateAnimal("dog", "Rex", currentTime);
-            Animal canary = AnimalFactory.CreateAnimal("canary", "Tweety", currentTime);
-            Animal lizard = AnimalFactory.CreateAnimal("lizard", "Lizzy", currentTime);
+            IAnimalFactory dogFactory = new DogFactory();
+            IAnimalFactory canaryFactory = new CanaryFactory();
+            IAnimalFactory lizardFactory = new LizardFactory();
+
+            Animal dog = CreateAnimal(dogFactory, "Rex", currentTime);
+            Animal canary = CreateAnimal(canaryFactory, "Tweety", currentTime);
+            Animal lizard = CreateAnimal(lizardFactory, "Lizzy", currentTime);
 
             petShop.AddAnimal(dog);
             petShop.AddAnimal(canary);
@@ -154,9 +158,15 @@ namespace APPZ_Lab2
             Console.WriteLine("Вихід із симуляції.");
         }
 
-        
+
+        static Animal CreateAnimal(IAnimalFactory factory, string name, int currentTime)
+        {
+            return factory.CreateAnimal(name, currentTime);
+        }
+
+
         // Метод для вибору тварини з колекції власника.
-      
+
         static Animal SelectOwnerAnimal(Owner owner, string prompt)
         {
             List<Animal> animalList = new List<Animal>(owner.Animals);
@@ -205,7 +215,7 @@ namespace APPZ_Lab2
                         owner.AddAnimal(chosen);
                         // Підписка власника на події тварини
                         chosen.AnimalStateChanged += owner.AnimalStateChangedHandler;
-                        Console.WriteLine($"Тварину {chosen.Name} забрано з зоомагазину і додано до вашого парку.");
+                        Console.WriteLine($"Тварину {chosen.Name} забрано з зоомагазину і додано до вашого будинку.");
                     }
                     else
                         Console.WriteLine("Помилка при забиранні тварини.");
